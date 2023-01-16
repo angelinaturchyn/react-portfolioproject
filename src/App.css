@@ -64,7 +64,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active a.navbar-brand  {
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 14px;
-  margin-left: 0px;
+  margin-left: 20px;
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;

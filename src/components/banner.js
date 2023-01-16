@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import headerImg from "../assets/img/nasa-5e9CmF-Ge9Y-unsplash.jpg";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 import {Col} from "react-bootstrap";
 
 export const Banner = () => {
@@ -54,7 +53,7 @@ export const Banner = () => {
                         <h1>{`Hi there! I'm Angelina,`} <span className="txt-rotate"  data-rotate='[ " QA Engineer", "QA Engineer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                         <p>I'm a life-learner and open minded QA Engineer that's always open to new opportunities.</p>
                         </Col>
-                        </div>
+                    </div>
         </section>
     )
 }
