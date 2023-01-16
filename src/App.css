@@ -22,7 +22,7 @@ body {
   font-weight: 900;
   overflow-x: hidden;
   position: relative;
-  background-color: darkslateblue !important;
+  background-color: black !important;
   color: darkgrey !important;
   font-family: 'Roboto Mono', monospace !important;
 
@@ -64,7 +64,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active a.navbar-brand  {
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 14px;
-  margin-left: 18px;
+  margin-left: 0px;
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
@@ -73,15 +73,15 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active a.navbar-brand  {
   z-index: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 100px;
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 300px;
   padding: 0;
   line-height: normal;
 }
 
 .banner {
-  margin-top: 0;
-  padding: 260px 0 100px 0;
+  margin-top: 0px;
+  padding: 0px  0px;
   color: white !important;
   background-position: center;
   background-size: cover;
@@ -90,14 +90,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner .tagline {
   font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
+  letter-spacing: 5px;
+  padding: 8px 100px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   font-palette: light;
   margin-bottom: 16px;
   display: inline-block;
+}
+
+img {
+  image-rendering: auto;
+  width: 150%;
+  height: auto;
 }
 
 .App-logo {
@@ -134,3 +139,27 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: relative ;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  font-size: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
