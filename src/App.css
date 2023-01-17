@@ -26,6 +26,7 @@ body {
   color: darkgrey !important;
   font-family: 'Roboto Mono', monospace !important;
 
+
 }
 nav.navbar {
   padding: 18px 0;
@@ -77,6 +78,8 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 300px;
   padding: 0;
   line-height: normal;
+  font-size: 14px;
+
 }
 
 .banner {
@@ -98,6 +101,8 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
   display: inline-block;
 }
+
+
 
 img {
   image-rendering: auto;
@@ -141,6 +146,7 @@ img {
 }
 
 .container {
+  padding: 10px;
   position: relative ;
   text-align: center;
   color: white;
@@ -159,7 +165,6 @@ img {
   left: 30%;
   transform: translate(-50%, -50%);
 }
-
 
 
 
