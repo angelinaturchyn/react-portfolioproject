@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import {useRef, useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -7,13 +7,16 @@ import Carousel from 'react-bootstrap/Carousel';
 export const Skills = () => {
     const [index, setIndex] = useState(0);
 
+
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
 
-        return (<Carousel activeIndex={index} onSelect={handleSelect}>
+        return (
+            <div className='skills' id='skills'>
+            <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item >
-            <h1>Skills</h1>
+            <h1>Skills </h1>
             <h6>Languages:  Javascript, Java</h6>
             <h6>Smoke, Integration Testing, End- to-End Testing</h6>
             <h6> Technologies: Git, GitHub, HTML, CSS, React.js, Node.js</h6>
@@ -35,6 +38,7 @@ export const Skills = () => {
 
         </Carousel.Item>
     </Carousel>
+            </div>
     )
 }
 
