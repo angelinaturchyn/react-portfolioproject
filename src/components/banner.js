@@ -51,7 +51,6 @@ export const Banner = () => {
                     <div className="top-left" >
                         <Col xs={12} md={6} xl={7}>
                         <h1>{`Hi there! I'm Angelina,`} <span className="txt-rotate"  data-rotate='[ " QA Engineer", "QA Engineer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                        {/*<h2>I'm a self-taught, life-learner QA Engineer that's always open to new opportunities. </h2>*/}
                         </Col>
                     </div>
         </section>

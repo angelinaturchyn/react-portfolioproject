@@ -2,11 +2,8 @@ import * as React from 'react';
 import {useRef, useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-
-
 export const Skills = () => {
     const [index, setIndex] = useState(0);
-
 
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
