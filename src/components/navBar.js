@@ -12,12 +12,16 @@ export const NavBar = () => {
 
     const closeMenu = () => setClick(false)
        return (
-        <Navbar expand="lg" >
-            <Container>
+        <Navbar bg="black" variant="dark"expand="lg" >
+            <Container fluid>
             <Navbar.Brand  href="home">Angelina Turchyn</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="navbarScroll">
+                    <Nav
+                        className="me-auto my-2 my-lg-0"
+                        style={{ maxHeight: '200px' }}
+                        navbarScroll
+                    >
                         <Link className={activeLink === "aboutme" ? "active navbar-link" : "navbar-link"} to="aboutme" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About me </Link>
                         <Link className={activeLink === "aboutme" ? "active navbar-link" : "navbar-link"} to="skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skills </Link>
                         <Link className={activeLink === "aboutme" ? "active navbar-link" : "navbar-link"} to="/" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects </Link>
@@ -28,6 +32,7 @@ export const NavBar = () => {
                     <span className="navbar-text" >
                     <button className="vvd"><span>Let’s Connect</span></button>
                         </span>
+
                 </Navbar.Collapse>
                 </Container>
         </Navbar>
