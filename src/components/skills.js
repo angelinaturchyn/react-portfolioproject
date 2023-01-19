@@ -3,6 +3,7 @@ import {useRef, useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+import {Col} from "react-bootstrap";
 
 export const Skills = () => {
     const [index, setIndex] = useState(0);
@@ -14,8 +15,10 @@ export const Skills = () => {
         return (
             <div className='skills' id='skills'>
                 <h1>Skills</h1>
-                <Row xs={1} md={2} className="g-4">
-                <Card border="primary" style={{ width: '20rem' }}>
+
+                <Row  className="g-4">
+
+                <Card border="primary" style={{ width: '25rem' }}>
 
                     <Card.Header>Header</Card.Header>
                     <Card.Body>
@@ -28,19 +31,8 @@ export const Skills = () => {
                 </Card>
                 <br />
 
-                <Card border="secondary" style={{ width: '20rem' }}>
-                    <Card.Header>Header</Card.Header>
-                    <Card.Body>
-                        <Card.Title>Secondary Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-                <br />
 
-                <Card border="success" style={{ width: '20rem' }}>
+                <Card border="success" style={{ width: '25rem' }}>
                     <Card.Header>Header</Card.Header>
                     <Card.Body>
                         <Card.Title>Success Card Title</Card.Title>
@@ -52,7 +44,7 @@ export const Skills = () => {
                 </Card>
                 <br />
 
-                <Card border="danger" style={{ width: '20rem' }}>
+                <Card border="danger" style={{ width: '25rem' }}>
                     <Card.Header>Header</Card.Header>
                     <Card.Body>
                         <Card.Title>Danger Card Title</Card.Title>
@@ -63,7 +55,41 @@ export const Skills = () => {
                     </Card.Body>
                 </Card>
                 <br />
+                    <Card border="secondary" style={{ width: '25rem' }}>
+                        <Card.Header>Header</Card.Header>
+                        <Card.Body>
+                            <Card.Title>Danger Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br />
+                    <Card border="info" style={{ width: '25rem' }}>
+                        <Card.Header>Header</Card.Header>
+                        <Card.Body>
+                            <Card.Title>Danger Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br />
+                    <Card border="light" style={{ width: '25rem' }}>
+                        <Card.Header>Header</Card.Header>
+                        <Card.Body>
+                            <Card.Title>Danger Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the
+                                bulk of the card's content.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <br />
                 </Row>
+
             </div>
     )
 }

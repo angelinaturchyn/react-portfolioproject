@@ -8,7 +8,7 @@
 }
 
 *{
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -27,21 +27,23 @@ body {
   font-family: 'Roboto Mono', monospace !important;
 
 
+
 }
 nav.navbar {
   padding: 20px ;
   position: absolute;
   width: 100%;
-  top: 10px;
+  top: 0px;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  opacity: 0.8;
 }
 
 
 
 nav.navbar a.navbar-brand {
-  width: 20%;
-  font-weight: 700;
+  width: 25%;
+  font-weight: 900;
   color: azure !important;
   letter-spacing: 2px;
   opacity: 1;
@@ -50,13 +52,14 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar .navbar-nav .navbar-link.navbar-link {
-  font-weight: 400;
+  font-weight: 300;
   color: azure !important;
-  letter-spacing: 2px;
-  padding: 40px;
+  letter-spacing: 3px;
+  padding: 10px;
   font-size: 18px;
-  opacity: 0.75;
+  opacity: 1;
   text-decoration: none;
+  position: inherit;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover ,
@@ -80,6 +83,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active a.navbar-brand  {
   z-index: 1;
 }
 
+
 h1, h2, h3, h4, h5, h6, p {
   margin-top: 300px;
   padding: 5px;
@@ -90,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .banner {
   margin-top: 0px;
-  padding: 0px  0px;
+  padding: 0px;
   color: white !important;
   background-position: center;
   background-size: cover;
@@ -172,23 +176,32 @@ img {
 
 .aboutme {
   text-align: left;
-  padding: 60px;
-  margin-top: 60px;
+  padding: 30px;
+  margin-top: 40px;
+  margin-bottom: 160px;
 }
 
 .card {
   background-color: black !important;
   padding: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   color: white;
-  position: center;
+
+
 }
 
 .skills {
-
-  position: static;
-  padding: 20px;
+  position: center;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
+.row {
+  position: center;
+  padding: 100px;
+}
 
