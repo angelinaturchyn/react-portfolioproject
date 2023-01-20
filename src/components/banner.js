@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import headerImg from "../assets/img/nasa-5e9CmF-Ge9Y-unsplash.jpg";
+import headerImg from "../assets/img/jonas-verstuyft-flsFQ3UTuKw-unsplash.jpg";
 import 'animate.css';
 import {Col} from "react-bootstrap";
 
@@ -9,7 +9,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "QA Engineer" ,"Inspiring Web Developer" ];
+    const toRotate = [ "QA Engineer" ,"aspiring Web Developer" ];
     const period = 2000;
 
     useEffect(() => {

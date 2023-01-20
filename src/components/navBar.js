@@ -14,7 +14,7 @@ export const NavBar = () => {
        return (
         <Navbar bg="black" variant="dark"expand="lg" >
             <Container fluid>
-            <Navbar.Brand  href="home">Angelina Turchyn</Navbar.Brand>
+            <Navbar.Brand  href="home"> Angelina Turchyn </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
