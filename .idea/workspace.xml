@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b72d50dd-cbba-4329-8ad4-b537eab7a2de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="0f937581-c702-47fd-8161-c87bfae80328" />
-        <option name="url" value="https://github.com/angelinaturchyn/portfolioproject.git" />
+        <option name="url" value="git@github.com:angelinaturchyn/react-portfolioproject.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -67,8 +65,18 @@
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -81,6 +89,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673644627331</updated>
       <workItem from="1673644628430" duration="40279000" />
-      <workItem from="1678379840872" duration="551000" />
+      <workItem from="1678379840872" duration="1442000" />
     </task>
     <servers />
   </component>
