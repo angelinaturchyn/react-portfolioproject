@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolioproject/static/css/main.87cb64a8.css",
+    "main.js": "/react-portfolioproject/static/js/main.2ddd2821.js",
+    "static/js/787.c4bf6651.chunk.js": "/react-portfolioproject/static/js/787.c4bf6651.chunk.js",
+    "static/media/jonas-verstuyft-flsFQ3UTuKw-unsplash.jpg": "/react-portfolioproject/static/media/jonas-verstuyft-flsFQ3UTuKw-unsplash.1a845d4b302a01522d11.jpg",
+    "static/media/NFT planet with circles around it.png": "/react-portfolioproject/static/media/NFT planet with circles around it.d688bdca174fac89d7a2.png",
+    "index.html": "/react-portfolioproject/index.html",
+    "main.87cb64a8.css.map": "/react-portfolioproject/static/css/main.87cb64a8.css.map",
+    "main.2ddd2821.js.map": "/react-portfolioproject/static/js/main.2ddd2821.js.map",
+    "787.c4bf6651.chunk.js.map": "/react-portfolioproject/static/js/787.c4bf6651.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87cb64a8.css",
+    "static/js/main.2ddd2821.js"
+  ]
+}
